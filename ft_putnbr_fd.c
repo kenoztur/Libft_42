@@ -6,7 +6,7 @@
 /*   By: kenoztur <kenoztur@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/15 18:49:24 by kenoztur          #+#    #+#             */
-/*   Updated: 2026/08/19 18:27:53 by kenoztur         ###   ########.fr       */
+/*   Updated: 2026/08/20 00:04:53 by kenoztur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 		if (n > 9)
 		{
-			ft_putnbr_fd(n /= 10, fd);
+			ft_putnbr_fd(n / 10, fd);
 			n %= 10;
 		}
 		if (n < 10)

@@ -6,7 +6,7 @@
 /*   By: kenoztur <kenoztur@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/09 21:17:27 by kenoztur          #+#    #+#             */
-/*   Updated: 2026/08/19 18:37:31 by kenoztur         ###   ########.fr       */
+/*   Updated: 2026/08/20 00:00:49 by kenoztur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ char	*ft_strdup(const char *src)
 	char	*dest;
 
 	a = 0;
-	dest = malloc(ft_strlen(src));
+	dest = malloc(ft_strlen(src) + 1);
 	if (!dest)
-		return (0);
+		return (NULL);
 	while (src[a] != '\0')
 	{
 		dest[a] = src[a];
