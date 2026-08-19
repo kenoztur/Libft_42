@@ -17,7 +17,7 @@ make
 This creates `libft.a`. Include `libft.h` in a program and link the library:
 
 ```sh
-cc main.c -I. -L. -lft
+cc main.c libft.a
 ```
 
 Available Makefile rules are `all`, `clean`, `fclean`, and `re`.
