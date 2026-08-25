@@ -6,7 +6,7 @@
 `libft` is the foundational project at 42 School. The objective is to recode a set of standard C library functions, alongside various custom utility functions and linked list manipulations, creating our own static library (`libft.a`) to be reused in future 42 C projects.
 
 ---
-## Instructions
+## 📋 Instructions
 
 Compile the library from the project root:
 
@@ -50,7 +50,6 @@ Available Makefile rules are `all`, `clean`, `fclean`, and `re`.
 * `ft_strncmp`   - Compares two strings up to n bytes.
 * `ft_strlcpy`   - Size-bounded string copying.
 * `ft_strlcat`   - Size-bounded string concatenation.
-* `ft_strncpy`   - Copies up to n characters from a string.
 * `ft_strnstr`   - Locates a substring in a string.
 * `ft_strdup`    - Creates a duplicate of a string.
 

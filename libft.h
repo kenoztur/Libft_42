@@ -6,7 +6,7 @@
 /*   By: kenoztur <kenoztur@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/03 13:21:00 by kenoztur          #+#    #+#             */
-/*   Updated: 2026/08/19 18:29:16 by kenoztur         ###   ########.fr       */
+/*   Updated: 2026/08/20 00:46:20 by kenoztur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,6 @@ size_t			ft_strlcpy(char *dest, const char *src, size_t size);
 size_t			ft_strlen(const char *str);
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
-char			*ft_strncpy(char *dest, char *src, unsigned int n);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strtrim(char const *s1, char const *set);

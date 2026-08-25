@@ -6,7 +6,7 @@
 /*   By: kenoztur <kenoztur@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/15 18:49:24 by kenoztur          #+#    #+#             */
-/*   Updated: 2026/08/20 00:04:53 by kenoztur         ###   ########.fr       */
+/*   Updated: 2026/08/25 19:57:51 by kenoztur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,12 @@ void	ft_putnbr_fd(int n, int fd)
 			ft_putchar_fd('-', fd);
 			n *= -1;
 		}
-		if (n > 9)
+		if (n >= 10)
 		{
 			ft_putnbr_fd(n / 10, fd);
-			n %= 10;
+			ft_putnbr_fd(n % 10, fd);
 		}
-		if (n < 10)
+		else
 		{
 			ft_putchar_fd(n + '0', fd);
 		}
